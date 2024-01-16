@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'DataFlowFrontend' title`, () => {
+  it(`should have the 'DataFlowVerwaltungssystemProject' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('DataFlowFrontend');
+    expect(app.title).toEqual('DataFlowVerwaltungssystemProject');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, DataFlowFrontend');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, DataFlowVerwaltungssystemProject');
   });
 });

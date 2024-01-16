@@ -1,0 +1,14 @@
+.Inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    margin-top: 15%;
+}
+
+.HelperLinksSection{
+    
+    display: flex;    
+    justify-content: center;
+    margin-top: -5%;
+}

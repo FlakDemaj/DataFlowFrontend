@@ -1,0 +1,96 @@
+.InputUsername{
+  height: 15%;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.InputSection{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%; 
+  width: 90%;
+}
+
+
+.LoginButton{
+  background-color: rgb(57, 150, 222);
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 2px black;
+  border-top: none;
+  border-radius: 6px;
+  color: white;
+  width: 40%;
+  height: 100%;
+  cursor: pointer;
+}
+.LoginButton:active{
+box-shadow: none;
+}
+.LoginButton:hover{
+  background-color: rgb(19, 133, 220);
+}
+
+.LoginButtonSection{
+  margin-top: -5%;
+  width: 85%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+.PasswordVisibleCheckbox{
+  
+  font-size: large;
+  
+}
+
+.Input {
+    
+  height: 100%;
+  width: 100%;
+  font-size: 125%;
+  background-color: rgb(244, 242, 242);
+  border: 1px solid transparent;
+  border-top: none;
+  border-bottom: 1px solid #DDD;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+
+}
+
+.WrongDataAlert{
+  color: red;
+  margin-top: 0%;
+  visibility:hidden;
+}
+
+.InputPasswordLabel {
+  color: grey;
+  display: flex;
+}
+
+.PasswordSection{
+  height: 15%;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+.InputUsernameSection {
+  height: 15%;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.InputUsernameLabel {
+  color: grey;
+  display: flex;
+  
+}
+
+.CheckBoxLabel{
+  padding-right: 10%;
+}

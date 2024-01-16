@@ -1,0 +1,15 @@
+.HelperLinksSection{
+    width: 60%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.Helper{
+    margin-bottom: 2%;
+    font-size: large;
+    color: grey;
+    cursor: pointer;
+}

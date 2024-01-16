@@ -1,0 +1,16 @@
+<form class="InputSection" [formGroup]="loginData" (ngSubmit)="submitForm()" id="InputSectionLogin">
+    <div class="InputUsernameSection">
+        <label for="AnmeldeName" class="InputUsernameLabel">Benutzername oder Email</label>
+        <input type="text" id="AnmeldeName" required class="Input" formControlName="userName">
+    </div>
+    <div class="PasswordSection">
+        <label for="Password" class="InputPasswordLabel">Passwort</label>
+        <input type="password" id="PasswordName" class="Input" formControlName="password">
+        <p class="WrongDataAlert" id="WrongDataAlert"> Ihr Passwort oder Nutzername ist falsch!</p>
+    </div>
+    <div class="LoginButtonSection" id="LoginButtonSection">
+        <input type="checkbox" name="Password anzeigen" (click)="togglePasswordVisibility(); " >
+        <label class="CheckBoxLabel" for="Password anzeigen"> Password anzeigen</label><br>
+        <button class="LoginButton" type="submit">Anmelden</button>
+    </div>
+</form>

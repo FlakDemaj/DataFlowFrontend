@@ -1,14 +1,21 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+import { LoginPageComponent } from './Pages/LoginPage/login-page/login-page/login-page.component';
+
+
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+    selector: 'app-root',
+    standalone: true,
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss',
+    imports: [CommonModule, RouterOutlet,LoginPageComponent]
 })
+
+
+
 export class AppComponent {
-  title = 'DataFlowFrontend';
+  title = 'DataFlowVerwaltungssystemProject';
+
 }
