@@ -1,9 +1,10 @@
 .HelperLinksSection{
-    width: 60%;
     display: flex;
     align-items: center; 
     justify-content: center;
     flex-direction: column;
+    text-align: center;
+
     
 }
 
@@ -12,4 +13,6 @@
     font-size: large;
     color: grey;
     cursor: pointer;
+    text-decoration: none;
+
 }

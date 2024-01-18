@@ -58,7 +58,7 @@ export class InputFieldsComponent {
 
   togglePasswordVisibility(): void {
     const passwordInput= document.getElementById(
-      'PasswordName'
+      'PasswordInput'
     ) as HTMLInputElement;
 
     if (passwordInput.type=="password") {
