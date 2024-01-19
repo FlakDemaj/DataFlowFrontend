@@ -12,3 +12,47 @@
     justify-content: center;
     margin-top: -5%;
 }
+
+@media only screen and (max-width:950px){
+    .Inputs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+        margin-top: 0%;
+    }
+
+    .HelperLinksSection{
+    
+        display: flex;    
+        justify-content: center;
+        margin-top: 3%;
+    }
+
+}
+@media only screen and (max-width:1100px){
+    
+    .Inputs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+        margin-top: 5%;
+    }
+
+    .HelperLinksSection{
+    
+        display: flex;    
+        justify-content: center;
+        margin-top: 3%;
+    }
+    @media only screen and (max-height:650px){
+        .Inputs{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70%;
+            margin-top: 0%;
+        }
+    }
+}
