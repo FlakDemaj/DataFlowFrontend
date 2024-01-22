@@ -5,11 +5,11 @@
     </div>
     <div class="InputDataSection">
         <label for="Password" class="InputPasswordLabel">Passwort</label>
-        <input type="password" id="PasswordInput" class="Input" formControlName="password">
+        <input [type]="VisiblePassword?'password':'text'" id="PasswordInput" class="Input" formControlName="password">
         <p class="WrongDataAlert" id="WrongDataAlert"> Ihr Passwort oder Nutzername ist falsch!</p>
     </div>
     <div class="LoginButtonSection" id="LoginButtonSection">
-        <input type="checkbox" name="Password anzeigen" (change)="togglePasswordVisibility(); " >
+        <input type="checkbox" name="Password anzeigen" (click)="togglePassword()" >
         <label class="CheckBoxLabel" for="Password anzeigen"> Password anzeigen</label><br>
         <button class="LoginButton" type="submit">Anmelden</button>
     </div>

@@ -10,6 +10,14 @@ import { ReactiveFormsModule } from '@angular/forms';
   styleUrl: './input-fields.component.scss',
 })
 export class InputFieldsComponent {
+  
+  VisiblePassword:boolean=true;
+
+  togglePassword():void{
+    
+  this.VisiblePassword=!this.VisiblePassword;    
+  }
+
   loginData: FormGroup;
 
   constructor(private fb: FormBuilder) {
@@ -57,6 +65,7 @@ export class InputFieldsComponent {
   }
 
   togglePasswordVisibility(): void {
+
     const passwordInput= document.getElementById(
       'PasswordInput'
     ) as HTMLInputElement;
@@ -68,7 +77,7 @@ export class InputFieldsComponent {
       passwordInput.type="password";
     }
   }
-
+  
    WrongLoginDatas():void {
     
     var LoginButtonSection = document.getElementById("LoginButtonSection");
